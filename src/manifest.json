@@ -1,0 +1,19 @@
+"appRoles":[{
+    "allowedMemberTypes": [
+      "User"
+    ],
+    "description": "Access to device status",
+    "displayName": "Get Device Status",
+    "isEnabled": "true",
+    "value": "GetStatus"
+}]
+
+"requiredResourceAccess":[{
+    "resourceAppId": "00000003-0000-0000-c000-000000000000",
+    "resourceAccess": [
+        {
+            "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+            "type": "Scope"
+        }
+   ]
+}]
